@@ -7,8 +7,11 @@
   --font-semi: 600;
 
   /*===== Colors =====*/
+  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
+  /* HSL color mode */
   --hue-color: 114;
   --first-color: hsl(var(--hue-color), 89%, 60%);
+  /* --second-color: hsl(var(--hue-color), 56%, 12%); */
   --second-color: #fff;
 
   /*===== Font and Typography =====*/
@@ -37,6 +40,8 @@
     --smaller-font-size: .875rem;
   }
 }
+
+
 
 /*===== BASE =====*/
 *, ::before, ::after {
@@ -74,6 +79,8 @@ img {
   display: block;
 }
 
+
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -101,6 +108,8 @@ img {
   padding-bottom: 2rem;
 }
 
+
+
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -118,6 +127,8 @@ img {
   background-color: rgb(0, 0, 0);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
+
+
 
 /*===== NAV =====*/
 .nav {
@@ -174,6 +185,8 @@ img {
   cursor: pointer;
 }
 
+
+
 /*Active menu*/
 .active::after {
   position: absolute;
@@ -185,10 +198,14 @@ img {
   background-color: var(--first-color);
 }
 
+
+
 /*=== Show menu ===*/
 .show {
   right: 0;
 }
+
+
 
 /*===== HOME =====*/
 .home {
@@ -233,6 +250,8 @@ img {
   width: 260px;
 }
 
+
+
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -247,6 +266,8 @@ img {
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
+
+
 
 /* ===== ABOUT =====*/
 .about__container {
@@ -266,6 +287,8 @@ img {
   width: 200px;
   border-radius: 1rem;
 }
+
+
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -335,6 +358,7 @@ img {
 }
 
 
+
 /*==================== QUALIFICATION ====================*/
 .qualification__button{
   font-size: var(--h3-font-size);
@@ -402,27 +426,6 @@ img {
 }
 
 
-/* ===== CONTACT =====*/
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-
-.contact__button {
-  display: block;
-  color: black;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
 
 /* ===== FOOTER =====*/
 .footer {
@@ -451,6 +454,8 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
